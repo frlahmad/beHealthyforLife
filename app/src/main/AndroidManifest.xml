@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthylife">
+
+    <!-- Izin akses internet untuk memanggil API Gemini -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Izin membaca gambar dari penyimpanan -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:label="HealthyLife"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthyLife">
+
+        <!-- Activity untuk detail analisis -->
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+
+        <activity android:name=".WorkoutActivity"/>
+
+
+        <!-- Activity untuk scan gambar -->
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+
+        <!-- Activity utama (launcher) -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

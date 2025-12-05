@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HealthyLife</string>
+    <string name="food_image">Gambar makanan</string>
+    <string name="nutrition_info">Informasi gizi akan muncul di sini...</string>
+</resources>

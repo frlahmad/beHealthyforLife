@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_wave_new">   <!-- DITAMBAHKAN -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Kotak Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_search" />
+
+            <EditText
+                android:id="@+id/inputMessage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Makan apa hari ini?"
+                android:background="@android:color/transparent"
+                android:paddingStart="8dp"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <!-- Judul Rekomendasi -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rekomendasi Makanan Sehat"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:paddingBottom="8dp" />
+
+        <!-- ITEM 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Salad sayur segar"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campuran sayuran hijau, tomat, mentimun, dan dressing rendah kalori. Kaya vitamin dan serat."
+            android:textSize="14sp"
+            android:paddingBottom="8dp" />
+
+        <!-- ITEM 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Oatmeal dengan buah"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menggunakan oats, topping buah-buahan, dan madu. Baik untuk jantung dan stabilkan energi."
+            android:textSize="14sp"
+            android:paddingBottom="8dp" />
+
+        <!-- ITEM 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Ayam panggang tanpa minyak"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sumber protein yang rendah lemak, cocok untuk diet dan menjaga massa otot."
+            android:textSize="14sp"
+            android:paddingBottom="8dp" />
+
+        <!-- ITEM 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Smoothie pisang dan yogurt"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minuman sehat kaya kalium, kalsium, dan probiotik yang baik untuk pencernaan."
+            android:textSize="14sp"
+            android:paddingBottom="8dp" />
+
+        <!-- ITEM 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Sup sayuran hangat"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perpaduan wortel, brokoli, kentang, dan kaldu rendah garam. Cocok untuk pemulihan tubuh."
+            android:textSize="14sp"
+            android:paddingBottom="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>

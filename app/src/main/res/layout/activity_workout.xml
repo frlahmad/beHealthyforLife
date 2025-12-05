@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44444E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#212121">
+
+        <!-- UPPER BODY -->
+        <LinearLayout
+            android:id="@+id/btnUpperBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_black_ripple"
+            android:elevation="5dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/txtTitleUpper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upper Body"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTimeUpper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1–2 hours"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- LOWER BODY -->
+        <LinearLayout
+            android:id="@+id/btnLowerBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_black_ripple"
+            android:elevation="5dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/txtTitleLower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lower Body"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTimeLower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45–60 min"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- FULL BODY -->
+        <LinearLayout
+            android:id="@+id/btnFullBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_black_ripple"
+            android:elevation="5dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/txtTitleFull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Body"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTimeFull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 hour"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- CORE -->
+        <LinearLayout
+            android:id="@+id/btnCore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_black_ripple"
+            android:elevation="5dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/txtTitleCore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Core"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTimeCore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20–30 min"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- CARDIO -->
+        <LinearLayout
+            android:id="@+id/btnCardio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_black_ripple"
+            android:elevation="5dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/txtTitleCardio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cardio"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTimeCardio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30–45 min"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- STRENGTH TRAINING -->
+        <LinearLayout
+            android:id="@+id/btnStrength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_black_ripple"
+            android:elevation="5dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/txtTitleStrength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Strength Training"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTimeStrength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 hour"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- ENDURANCE TRAINING -->
+        <LinearLayout
+            android:id="@+id/btnEndurance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_black_ripple"
+            android:elevation="5dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/txtTitleEndurance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Endurance Training"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTimeEndurance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45–90 min"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- SPORTS TRAINING -->
+        <LinearLayout
+            android:id="@+id/btnSports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_black_ripple"
+            android:elevation="5dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/txtTitleSports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sports Training"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTimeSports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="60–120 min"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
