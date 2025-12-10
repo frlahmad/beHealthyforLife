@@ -4,18 +4,18 @@ plugins {
 }
 
 android {
-    namespace = "com.example.healthylife"
+    namespace = "com.beHealthyforLife.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.healthylife"
+        applicationId = "com.beHealthyforLife.app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
     }
 
-    // 🔥 Kotlin DSL version (WAJIB create())
+
     signingConfigs {
         create("release") {
             storeFile = file("senopati-release.jks")
@@ -29,7 +29,7 @@ android {
         release {
             isMinifyEnabled = false
 
-            // 🔥 Kotlin DSL (WAJIB pakai "=")
+
             signingConfig = signingConfigs.getByName("release")
         }
     }

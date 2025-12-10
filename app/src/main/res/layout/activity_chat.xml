@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_wave_new">   <!-- DITAMBAHKAN -->
+    android:background="@drawable/bg_wave_new">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -10,28 +10,42 @@
         android:orientation="vertical"
         android:padding="20dp">
 
-        <!-- Kotak Input -->
+        <!-- Kotak Input + Tombol Kirim -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:orientation="horizontal"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
             android:gravity="center_vertical">
 
+            <!-- Icon Search -->
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_search" />
 
+            <!-- Kolom Input -->
             <EditText
                 android:id="@+id/inputMessage"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:hint="Makan apa hari ini?"
                 android:background="@android:color/transparent"
                 android:paddingStart="8dp"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
+
+            <!-- Tombol Kirim -->
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/button_green"
+                android:text=">>>" />
         </LinearLayout>
+
 
         <!-- Judul Rekomendasi -->
         <TextView
@@ -122,6 +136,7 @@
             android:text="Perpaduan wortel, brokoli, kentang, dan kaldu rendah garam. Cocok untuk pemulihan tubuh."
             android:textSize="14sp"
             android:paddingBottom="8dp" />
+
 
     </LinearLayout>
 

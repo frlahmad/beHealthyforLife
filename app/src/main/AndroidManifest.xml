@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.healthylife">
+    package="com.beHealthyforLife.app">
 
     <!-- Izin akses internet untuk memanggil API Gemini -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -17,20 +17,20 @@
 
         <!-- Activity untuk detail analisis -->
         <activity
-            android:name=".DetailActivity"
+            android:name="com.beHealthyforLife.app.DetailActivity"
             android:exported="false" />
 
-        <activity android:name=".WorkoutActivity"/>
+        <activity android:name="com.beHealthyforLife.app.WorkoutActivity"/>
 
 
         <!-- Activity untuk scan gambar -->
         <activity
-            android:name=".ChatActivity"
+            android:name="com.beHealthyforLife.app.ChatActivity"
             android:exported="false" />
 
         <!-- Activity utama (launcher) -->
         <activity
-            android:name=".HomeActivity"
+            android:name="com.beHealthyforLife.app.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
